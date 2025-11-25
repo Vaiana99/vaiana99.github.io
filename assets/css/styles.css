@@ -25,7 +25,11 @@ h6 {
   font-weight: 700;
   color: #B37A5E; /* elegant terracotta */
 }
-
+.flag-icon {
+  width: 18px;            /* desired size */
+  height: auto;           /* keeps proportions responsive */
+  vertical-align: middle; /* keeps it aligned with text */
+}
 a {
   color: #D8A87A; /* beige-peach accent */
   transition: all 0.4s ease-in-out;
