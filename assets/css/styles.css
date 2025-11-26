@@ -288,6 +288,32 @@ a.dotted-link:hover {
   color: #8F6147;
 }
 
+/* DATE */
+.date {
+    display: block;      /* nouvelle ligne */
+    font-style: italic;  /* italique */
+    font-weight: normal; /* pas en gras */
+    color: #666;         /* optionnel : couleur plus douce */
+    margin-bottom: 6px;  /* espace avant la liste */
+}
+
+.summary {
+    padding-left: 20px;
+}
+
+.summary li {
+    margin-bottom: 4px;
+}
+
+.title .place {
+    display: block;      /* aussi sur une nouvelle ligne */
+    font-style: normal;  /* écriture normale */
+    font-weight: normal;
+    color: #444;         /* couleur neutre (modifiable) */
+    margin-top: -2px;    /* optionnel : rapproche du texte */
+}
+
+
 /* CREDITS */
 .credits ul li a {
   color: #B37A5E;
